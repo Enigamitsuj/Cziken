@@ -13,8 +13,13 @@ vsp = vsp + grv;
 //Jump
 if (place_meeting(x, y + 1, oWall) && key_jump) {
 	vsp = jumpHeight;
+	doubleJump = 1;
 }
 
+if (!place_meeting(x, y + 1, oWall) && doubleJump == 1  && key_jump) {
+	vsp = jumpHeight;
+	doubleJump = 0;
+}
 
 
 // Horizontal Colision 

@@ -1,5 +1,7 @@
 hsp = 0;
 vsp = 0;
-grv = 0.5;
+grv = 0.7;
 walksp = 4;
-jumpHeight = -7;
+jumpHeight = -11;
+
+doubleJump = 1;

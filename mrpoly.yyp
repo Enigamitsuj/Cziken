@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "7cd3d737-d0fd-4453-a6c4-24f64eb27096",
+            "Value": {
+                "id": "78e3148f-9dce-4988-a9d2-375383b97206",
+                "resourcePath": "objects\\oChickenDead\\oChickenDead.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8e8eafff-d1ca-4271-a38c-9529a5376140",
             "Value": {
                 "id": "e388728a-efa2-419f-b4c5-53fe475c38d0",
@@ -164,6 +172,14 @@
                 "id": "33beb174-5a0d-4953-ae12-cada3561ceec",
                 "resourcePath": "sprites\\sChicken\\sChicken.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9a55b01a-4e76-4f48-9c89-758117fb1655",
+            "Value": {
+                "id": "399bc365-3825-495f-8061-f4f847f9d2aa",
+                "resourcePath": "shaders\\shWhite\\shWhite.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -239,6 +255,14 @@
             }
         },
         {
+            "Key": "c594bf37-0066-485e-b749-35a19e4229c1",
+            "Value": {
+                "id": "18835714-b89f-4e1d-8f5c-e0734cf33825",
+                "resourcePath": "sprites\\sChickenDeath\\sChickenDeath.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c5b1cde1-3e84-4f2e-a86a-0308e581c384",
             "Value": {
                 "id": "ffde8608-d0c3-4b9b-9ed9-f05eb4bb9acc",
@@ -268,6 +292,14 @@
                 "id": "266fdbef-c327-411c-bd2b-2c08b50b3030",
                 "resourcePath": "views\\dd676baa-6e05-46f4-97f4-f453c1865167.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ecbd700a-a9bc-4cd0-b03c-64a15fc33fde",
+            "Value": {
+                "id": "4522657d-e20e-40d4-88ab-df11b29141f4",
+                "resourcePath": "objects\\oChicken\\oChicken.yy",
+                "resourceType": "GMObject"
             }
         },
         {
