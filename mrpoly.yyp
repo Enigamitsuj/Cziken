@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "7c10b484-c9cd-46bb-8f75-79d820a96435",
+            "Value": {
+                "id": "88c06bbe-15c6-43a1-b0a5-a8e6c4fc456b",
+                "resourcePath": "objects\\oCamera\\oCamera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7cd3d737-d0fd-4453-a6c4-24f64eb27096",
             "Value": {
                 "id": "78e3148f-9dce-4988-a9d2-375383b97206",
@@ -292,6 +300,14 @@
                 "id": "266fdbef-c327-411c-bd2b-2c08b50b3030",
                 "resourcePath": "views\\dd676baa-6e05-46f4-97f4-f453c1865167.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e45c2ee4-a66f-40b4-bcd0-95c9ed67741e",
+            "Value": {
+                "id": "9914a887-e499-461f-9020-cf3e1053c70d",
+                "resourcePath": "sprites\\sTilesGrassLand\\sTilesGrassLand.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -1,11 +1,6 @@
+/// @description Movement
+
 vsp = vsp + grv;
-
-if (hp < totalhp) {
-	if (place_meeting(x, y + 1, oWall)) {
-		vsp = irandom_range(jumpHeight, 0);
-	}
-}
-
 
 // Horizontal Colision 
 if (place_meeting(x + hsp, y, oWall)) {

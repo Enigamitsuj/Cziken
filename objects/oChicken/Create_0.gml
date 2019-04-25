@@ -1,9 +1,11 @@
-walksp = irandom_range(-4, 4);
+/// @description Global variables
+
+walksp = random_range(-3.1, 3.1);
 
 hsp = walksp;
 vsp = 0;
 grv = 0.7;
-jumpHeight = -7;
+jumpHeight = -8;
 
 hitfrom = 0;
 

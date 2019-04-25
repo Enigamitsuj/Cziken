@@ -1,3 +1,5 @@
+/// @description Gun handling
+
 x = oPlayer.x;
 y = oPlayer.y + 8;
 
