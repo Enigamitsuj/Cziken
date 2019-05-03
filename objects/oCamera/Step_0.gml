@@ -10,8 +10,13 @@ if (instance_exists(follow)) {
 x += (xTo - x) / 25;
 y += (yTo - y) / 25;
 
-x = clamp(x, view_w_half, room_width - view_w_half);
-y = clamp(y, view_h_half, room_height - view_h_half);
+x = clamp(x, view_w_half + screenShake_buffer, room_width - view_w_half - screenShake_buffer);
+y = clamp(y, view_h_half + screenShake_buffer, room_height - view_h_half - screenShake_buffer);
+
+// Screenshake
+x += random_range(-screenShake_remain, screenShake_remain);
+y += random_range(-screenShake_remain, screenShake_remain);
+screenShake_remain = max(0, screenShake_remain - ((1 / screenShake_length) * screenShake_magnitude));
 
 
 // Update camera view
