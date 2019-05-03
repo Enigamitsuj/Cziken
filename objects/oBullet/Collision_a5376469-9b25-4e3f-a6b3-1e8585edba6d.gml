@@ -6,6 +6,8 @@ with(other) {
 	hitfrom = other.direction;
 	
 	vsp = irandom_range(jumpHeight, -3);
+	hsp = lengthdir_x(4, hitfrom);
+	
 }
 
 instance_destroy();

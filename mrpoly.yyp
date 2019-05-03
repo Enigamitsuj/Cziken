@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "289651c8-3623-4a06-b502-c83661f709a6",
+            "Value": {
+                "id": "58b32ac2-2043-46bb-95af-d35581e5db9a",
+                "resourcePath": "scripts\\SlideTransition\\SlideTransition.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2955e4d7-74bb-48fc-ae38-0e57e8782413",
             "Value": {
                 "id": "e6f7b4c8-6a9c-4dda-865d-20ce2b7f3220",
@@ -151,6 +159,14 @@
             }
         },
         {
+            "Key": "80f43d33-1248-43cf-b5da-aefc8ae88dfd",
+            "Value": {
+                "id": "be311c07-d1fc-4b10-87ee-7595f73b4564",
+                "resourcePath": "objects\\oAreaTrigger\\oAreaTrigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8e8eafff-d1ca-4271-a38c-9529a5376140",
             "Value": {
                 "id": "e388728a-efa2-419f-b4c5-53fe475c38d0",
@@ -199,6 +215,14 @@
             }
         },
         {
+            "Key": "a03d211c-986e-49b8-b876-44854681b6e6",
+            "Value": {
+                "id": "0db9e04b-9997-409c-92b6-f70afaf3fb55",
+                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "a08f8d36-82f6-4573-9936-50c45b91b2a6",
             "Value": {
                 "id": "7434c1e8-0c18-4591-8286-ca258669ebff",
@@ -220,6 +244,14 @@
                 "id": "8046218e-c9a8-4be9-b572-7f1f415030ad",
                 "resourcePath": "views\\a1a0a989-c557-4348-a9f1-90472f8f96fe.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a1e1b4f8-b188-47d0-8268-a9c0c2fe77a3",
+            "Value": {
+                "id": "0cce323e-20ed-4065-ad7c-8a12e754e0ef",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -279,11 +311,27 @@
             }
         },
         {
+            "Key": "c8ab5e98-cd9d-4e84-a122-0a957e4fa306",
+            "Value": {
+                "id": "86bf4c43-0846-46e3-8883-caf20f6f9e1f",
+                "resourcePath": "sprites\\sAreaTrigger\\sAreaTrigger.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "fdde08b2-bc14-4c1f-b038-dbb6e3aedfd4",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d566564f-1cb4-4bb8-9ae7-295ebe4f72bc",
+            "Value": {
+                "id": "73d1bde0-7218-409e-b4db-e04024946c28",
+                "resourcePath": "objects\\oTransition\\oTransition.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -328,7 +376,7 @@
         }
     ],
     "script_order": [
-        
+        "289651c8-3623-4a06-b502-c83661f709a6"
     ],
     "tutorial": ""
 }

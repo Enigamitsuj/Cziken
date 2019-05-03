@@ -1,6 +1,6 @@
 /// @description Global variables
 
-walksp = random_range(-3.1, 3.1);
+walksp = random_range(-2, 2);
 
 hsp = walksp;
 vsp = 0;

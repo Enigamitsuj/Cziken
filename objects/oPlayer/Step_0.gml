@@ -1,28 +1,35 @@
 /// @description Movement
 
-key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
-key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
-key_jump = keyboard_check_pressed(vk_space);
+if (hasControl){
+
+	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
+	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
+	key_jump = keyboard_check_pressed(vk_space);
 
 
-// Calculate Movement
-var move = key_right - key_left;
+	// Calculate Movement
+	var move = key_right - key_left;
 
-hsp = move * walksp;
-vsp = vsp + grv;
+	hsp = move * walksp;
+	vsp = vsp + grv;
 
 
-//Jump
-if (place_meeting(x, y + 1, oWall) && key_jump) {
-	vsp = jumpHeight;
-	doubleJump = 1;
+	//Jump
+	if (place_meeting(x, y + 1, oWall) && key_jump) {
+		vsp = jumpHeight;
+		doubleJump = true;
+	}
+
+	if (!place_meeting(x, y + 1, oWall) && doubleJump && key_jump) {
+		vsp = jumpHeight;
+		doubleJump = false;
+	}
+	
+} else {
+    key_left = 0;
+	key_right = 0;
+	key_jump = 0;
 }
-
-if (!place_meeting(x, y + 1, oWall) && doubleJump == 1  && key_jump) {
-	vsp = jumpHeight;
-	doubleJump = 0;
-}
-
 
 // Horizontal Colision 
 if (place_meeting(x + hsp, y, oWall)) {
